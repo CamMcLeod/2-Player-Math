@@ -17,22 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1: X + Y = ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zGu-qd-4Z8">
-                                <rect key="frame" x="16" y="136" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36981177329999998" green="0.78798943759999995" blue="0.79608160260000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                        <integer key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1 Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="egX-5O-tVF">
                                 <rect key="frame" x="16" y="20" width="227" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -98,6 +82,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hH1-qK-iV8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hQ1-rb-GFH">
                                 <rect key="frame" x="35" y="357" width="95" height="95"/>
@@ -116,6 +103,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad4Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F5o-93-VjB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dKr-IO-efP">
                                 <rect key="frame" x="140" y="357" width="95" height="95"/>
@@ -134,6 +124,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad5Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27n-ai-Qga"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c4n-TG-ZZ2">
                                 <rect key="frame" x="245" y="357" width="95" height="95"/>
@@ -152,6 +145,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad6Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2d9-WY-TOB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sfF-bN-pBI">
                                 <rect key="frame" x="140" y="252" width="95" height="95"/>
@@ -170,6 +166,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lL5-GY-z0c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BLW-Th-EHH">
                                 <rect key="frame" x="35" y="462" width="95" height="95"/>
@@ -188,6 +187,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad7Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8G-fD-ffK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j0V-bI-XSR">
                                 <rect key="frame" x="140" y="462" width="95" height="95"/>
@@ -206,6 +208,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad8Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LRY-gK-XfD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HnY-Nm-muu">
                                 <rect key="frame" x="245" y="462" width="95" height="95"/>
@@ -224,6 +229,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad9Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cft-4V-ki4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N2D-xX-GDZ">
                                 <rect key="frame" x="35" y="567" width="95" height="95"/>
@@ -242,23 +250,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JhJ-os-rjn">
-                                <rect key="frame" x="12" y="194" width="350" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
-                                <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" title="ANSWER">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                        <integer key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad0Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOk-7a-zJ5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="16S-7A-5Il">
                                 <rect key="frame" x="249" y="20" width="110" height="50"/>
@@ -293,6 +287,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypad3Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czH-mE-vcO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EFK-zJ-JmC">
                                 <rect key="frame" x="138" y="567" width="202" height="95"/>
@@ -311,10 +308,61 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedKeypadEnterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJc-FQ-Oul"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1: X + Y = ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zGu-qd-4Z8">
+                                <rect key="frame" x="16" y="136" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36981177329999998" green="0.78798943759999995" blue="0.79608160260000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aYb-cv-Znb">
+                                <rect key="frame" x="16" y="194" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Player1ScoreLabel" destination="16S-7A-5Il" id="r20-P8-nWh"/>
+                        <outlet property="Player2ScoreLabel" destination="Q1U-wg-VK5" id="TMh-MZ-no1"/>
+                        <outlet property="keypad0Button" destination="N2D-xX-GDZ" id="BvZ-VL-iBK"/>
+                        <outlet property="keypad1Button" destination="kIP-jb-pER" id="1GY-c6-qE8"/>
+                        <outlet property="keypad2Button" destination="sfF-bN-pBI" id="E4f-gb-8Lh"/>
+                        <outlet property="keypad3Button" destination="W7H-AI-Rn1" id="3eN-zH-sec"/>
+                        <outlet property="keypad4Button" destination="hQ1-rb-GFH" id="XyI-tk-FZa"/>
+                        <outlet property="keypad5Button" destination="dKr-IO-efP" id="igp-SM-hj4"/>
+                        <outlet property="keypad6Button" destination="c4n-TG-ZZ2" id="QKp-UY-8S8"/>
+                        <outlet property="keypad7Button" destination="BLW-Th-EHH" id="asO-jF-ZvI"/>
+                        <outlet property="keypad8Button" destination="j0V-bI-XSR" id="bY5-Bh-db5"/>
+                        <outlet property="keypad9Button" destination="HnY-Nm-muu" id="Rm5-GJ-ENW"/>
+                        <outlet property="keypadEnterButton" destination="EFK-zJ-JmC" id="B5x-lr-fGg"/>
+                        <outlet property="mathAnswerLabel" destination="aYb-cv-Znb" id="5D8-TU-F4m"/>
+                        <outlet property="mathQuestionLabel" destination="zGu-qd-4Z8" id="gYm-8S-Kir"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
