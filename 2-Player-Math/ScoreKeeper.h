@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property int right;
 @property int wrong;
+@property int playerNumber;
 
 -(void)score;
 

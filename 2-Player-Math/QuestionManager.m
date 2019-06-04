@@ -16,6 +16,7 @@
         
         // initialize questions array
         _questions = [[NSMutableArray alloc] init];
+        _activePlayer =  1;
     }
     return self;
 }

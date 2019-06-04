@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDate *startTime;
 @property (nonatomic, strong) NSDate *endTime;
 
+@property (nonatomic) NSInteger playerNumber;
 @property (nonatomic) NSInteger leftValue;
 @property (nonatomic) NSInteger rightValue;
 

@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QuestionManager : NSObject
 
 @property NSMutableArray *questions;
+@property NSInteger activePlayer;
 
 -(NSString *) timeOutput;
 

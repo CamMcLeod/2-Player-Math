@@ -28,10 +28,10 @@
     return self;
 }
 
--(Question *) generateRandomQuestion {
+-(Question *) generateRandomQuestion{
     
     NSString *className = [_questionSubclassNames objectAtIndex:arc4random_uniform(4)];
-    return [[NSClassFromString(className) alloc ]init];;
+    return [[NSClassFromString(className) alloc] init];
 }
 
 @end

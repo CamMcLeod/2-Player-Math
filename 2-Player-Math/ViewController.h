@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScoreKeeper.h"
+#import "QuestionManager.h"
+#import "QuestionFactory.h"
+#import "Question.h"
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *Player1ScoreLabel;
-@property (weak, nonatomic) IBOutlet UILabel *Player2ScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *player1ScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *player2ScoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mathQuestionLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mathAnswerLabel;
 @property (weak, nonatomic) IBOutlet UIButton *keypad1Button;
@@ -25,6 +29,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *keypad9Button;
 @property (weak, nonatomic) IBOutlet UIButton *keypad0Button;
 @property (weak, nonatomic) IBOutlet UIButton *keypadEnterButton;
+
+@property ScoreKeeper *player1Score;
+@property ScoreKeeper *player2Score;
+@property QuestionManager *myManager;
+@property QuestionFactory *myFactory;
+@property Question *mathQuestion;
 
 - (IBAction)tappedKeypad1Button:(UIButton *)sender;
 - (IBAction)tappedKeypad2Button:(UIButton *)sender;

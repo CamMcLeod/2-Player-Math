@@ -10,14 +10,14 @@
 
 @implementation Question
 
-- (instancetype)init {
+- (instancetype)init{
     if (self = [super init]) {
         // set start time to now
         _startTime = [NSDate date];
         
         // generate random numbers to add upon initialization
-        _leftValue = 10 + arc4random_uniform(90);
-        _rightValue = 10 + arc4random_uniform(90);
+        _leftValue = 1 + arc4random_uniform(20);
+        _rightValue = 1 + arc4random_uniform(20);
         
         // generate question string with randomly generated numbers
         // _question = [[NSString alloc] initWithFormat:@"%d + %d = ?", rand1 , rand2];
